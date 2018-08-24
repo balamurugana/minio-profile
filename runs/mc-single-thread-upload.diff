@@ -1,0 +1,13 @@
+diff --git a/cmd/client.go b/cmd/client.go
+index dabd5bf0..ecdf3911 100644
+--- a/cmd/client.go
++++ b/cmd/client.go
+@@ -39,7 +39,7 @@ const (
+ )
+ 
+ // Default number of multipart workers for a Put operation.
+-const defaultMultipartThreadsNum = 4
++const defaultMultipartThreadsNum = 1
+ 
+ // Client - client interface
+ type Client interface {
