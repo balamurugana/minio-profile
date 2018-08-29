@@ -1,0 +1,128 @@
+RPC stats
+http://node2:9000/minio/storage/mnt/d1
+        Storage.StatFile        success = 1     failure = 3     alloc = 122 KiB
+        Storage.ReadFile        success = 2     failure = 0     alloc = 2203 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 35 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 352 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 162263 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 506 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1695 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 95 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 70 KiB
+        Storage.StatVol 	success = 1     failure = 0     alloc = 35 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 660 KiB
+        Storage.ReadAll 	success = 10    failure = 8     alloc = 3147 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 246 KiB
+http://node5:9000/minio/storage/mnt/d1
+        Storage.ReadAll 	success = 11    failure = 8     alloc = 2326 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 240 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 209358 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1382 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 84 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 119 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 396 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 704 KiB
+        Storage.StatFile        success = 0     failure = 3     alloc = 63 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 0 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 75 KiB
+http://node8:9000/minio/storage/mnt/d1
+        Storage.ReadAll 	success = 10    failure = 8     alloc = 3455 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 224 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 487 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 145223 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 558 KiB
+        Storage.StatFile        success = 1     failure = 3     alloc = 122 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 95 KiB
+        Storage.ReadFile        success = 2     failure = 0     alloc = 2245 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 110 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1782 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 35 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 70 KiB
+        Storage.StatVol 	success = 2     failure = 0     alloc = 70 KiB
+http://node5:9000/minio/lock
+        Dsync.Unlock    success = 7     failure = 0     alloc = 193 KiB
+        Dsync.RLock     success = 19    failure = 0     alloc = 2689 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 494 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 1046 KiB
+http://node2:9000/minio/lock
+        Dsync.RLock     success = 19    failure = 0     alloc = 3242 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 518 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 1081 KiB
+        Dsync.Unlock    success = 7     failure = 0     alloc = 210 KiB
+http://node8:9000/minio/lock
+        Dsync.RLock     success = 19    failure = 0     alloc = 3034 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 541 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 1197 KiB
+        Dsync.Unlock    success = 7     failure = 0     alloc = 200 KiB
+http://node7:9000/minio/lock
+        Dsync.RLock     success = 19    failure = 0     alloc = 3157 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 471 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 1207 KiB
+        Dsync.Unlock    success = 7     failure = 0     alloc = 208 KiB
+http://node3:9000/minio/storage/mnt/d1
+        Storage.Connect 	success = 3     failure = 0     alloc = 111 KiB
+        Storage.ReadAll 	success = 10    failure = 8     alloc = 3381 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 156861 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 2072 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 84 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 59 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 241 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 494 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 495 KiB
+        Storage.StatFile        success = 3     failure = 3     alloc = 181 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 35 KiB
+http://node4:9000/minio/storage/mnt/d1
+        Storage.ListVols        success = 3     failure = 0     alloc = 331 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1205 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 664 KiB
+        Storage.StatVol 	success = 4     failure = 0     alloc = 106 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 73 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 70 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 120 KiB
+        Storage.ReadAll 	success = 11    failure = 8     alloc = 2505 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 503 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 65864 KiB
+        Storage.StatFile        success = 1     failure = 3     alloc = 112 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 30 KiB
+http://node7:9000/minio/storage/mnt/d1
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 653 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 109 KiB
+        Storage.ReadAll 	success = 10    failure = 8     alloc = 3038 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 269 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1711 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 501 KiB
+        Storage.StatFile        success = 2     failure = 3     alloc = 149 KiB
+        Storage.ReadFile        success = 2     failure = 0     alloc = 2224 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 43 KiB
+        Storage.StatVol 	success = 1     failure = 0     alloc = 35 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 111 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 137573 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 59 KiB
+http://node6:9000/minio/lock
+        Dsync.RLock     success = 19    failure = 0     alloc = 2551 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 474 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 959 KiB
+        Dsync.Unlock    success = 7     failure = 0     alloc = 169 KiB
+http://node4:9000/minio/lock
+        Dsync.Unlock    success = 7     failure = 0     alloc = 178 KiB
+        Dsync.RLock     success = 19    failure = 0     alloc = 2381 KiB
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 489 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 919 KiB
+http://node6:9000/minio/storage/mnt/d1
+        Storage.ReadAll 	success = 10    failure = 8     alloc = 2408 KiB
+        Storage.AppendFile      success = 18    failure = 0     alloc = 123687 KiB
+        Storage.RenameFile      success = 9     failure = 0     alloc = 1416 KiB
+        Storage.DeleteFile      success = 0     failure = 4     alloc = 528 KiB
+        Storage.PrepareFile     success = 3     failure = 0     alloc = 106 KiB
+        Storage.DiskInfo        success = 1     failure = 0     alloc = 43 KiB
+        Storage.StatVol 	success = 1     failure = 0     alloc = 24 KiB
+        Storage.Connect 	success = 3     failure = 0     alloc = 110 KiB
+        Storage.ListVols        success = 3     failure = 0     alloc = 158 KiB
+        Storage.MakeVol 	success = 4     failure = 0     alloc = 489 KiB
+        Storage.StatFile        success = 1     failure = 3     alloc = 111 KiB
+        Storage.ListDir 	success = 2     failure = 0     alloc = 70 KiB
+http://node3:9000/minio/lock
+        Dsync.RUnlock   success = 19    failure = 0     alloc = 529 KiB
+        Dsync.Lock      success = 7     failure = 0     alloc = 1305 KiB
+        Dsync.Unlock    success = 7     failure = 0     alloc = 188 KiB
+        Dsync.RLock     success = 19    failure = 0     alloc = 3436 KiB
